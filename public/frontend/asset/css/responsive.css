@@ -1,0 +1,156 @@
+@media all and (min-width: 1200px) {
+    .container {
+        width: 95%;
+        max-width: 1370px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .top-blog-titleBox h1 {
+        font-size: 35px;
+    }
+    .top-blog-titleBox {
+        padding: 34px 15px;
+    }
+    .o__blogBnner img{
+        width: 100%;
+    }
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media all and (max-width: 1080px) {
+}
+
+@media all and (max-width: 992px) {
+    .contact-image .fa {
+        margin-top: -5%;
+        width: 16%;
+    }
+    .top-blog-titleBox {
+        position: static;
+    }
+}
+@media all and (max-width: 860px) {
+    .banner-cat {
+        bottom: 5px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .blogdetails-titleBox h1 {
+        font-size: 25px;
+    }
+    .blogDtls h3 {
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .catbox {
+        left: 3%;
+    }
+    .blogDtls {
+        padding: 25px;
+    }
+    .top-blog-titleBox h1 {
+        font-size: 28px;
+    }
+    .o__seabr{
+        border-right: none;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .banner-cat {
+        bottom: -5px;
+    }
+    .top-blog-titleBox {
+        position: inherit;
+        background: #333333;
+        padding: 10px 10px;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .big-top-blogBox img {
+        width: 100%;
+    }
+
+    .user-login-box {
+        max-width: 100%;
+    }
+    
+}
+
+@media all and (max-width: 480px) {
+    .header-title h2 {
+        font-size: 30px;
+    }
+    .persone-section {
+        height: 50vh;
+
+    }
+
+    .banner-cat {
+        display: none;
+    }
+    .title h2 {
+        font-size: 23px;
+    }
+    .exploer-card-title {
+        font-size: 20px;
+    }
+    .midslider img {
+        height: 25vh;
+    }
+    .card-slider {
+        padding: 25px;
+    }
+    .card-slider a {
+        padding: 6px 30px;
+    }
+    .card-image-review a img {
+        margin-bottom: 13px;
+    }
+    .top-blog-titleBox {
+        position: inherit;
+        background: #333333;
+        padding: 10px 10px;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .big-top-blogBox img {
+        width: 100%;
+    }
+    .top-blog-titleBox h1 {
+        font-size: 21px;
+    }
+    .contact-form {
+        background: #fff;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 95% !important;
+        box-shadow: var(--shadow-hover);
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+    .contact-form form {
+        padding: 90px 30px !important;
+    }
+    .register-left {
+        margin-bottom: 30px;
+    }
+
+    .register-right {
+        background: #fff;
+        border-top-left-radius: 0; 
+        border-bottom-left-radius: 0;
+    }
+    
+}
+
+@media all and (max-width: 360px) {
+}

@@ -1,0 +1,125 @@
+ <section id="tabs" class="available-project-tab">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title">
+                    <h2>Available Experts</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <nav>
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                        <!-- Hair Style -->
+                        <a class="nav-item nav-link active" id="nav-hair-tab" data-toggle="tab" href="#nav-hair" role="tab" aria-controls="nav-hair" aria-selected="true">Hair Style</a>
+                        <!-- Nail Salon -->
+
+                        <a class="nav-item nav-link" id="nav-nail-tab" data-toggle="tab" href="#nav-nail" role="tab" aria-controls="nav-nail" aria-selected="true">Nail Salon</a>
+                          <!-- Barbershop -->
+
+                        <a class="nav-item nav-link" id="nav-barbershop-tab" data-toggle="tab" href="#nav-barbershop" role="tab" aria-controls="nav-barbershop" aria-selected="true">Barbershop</a>
+                          <!--Beauty Salon -->
+
+                        <a class="nav-item nav-link" id="nav-beauty-tab" data-toggle="tab" href="#nav-beauty" role="tab" aria-controls="nav-beauty" aria-selected="false">Beauty Salon</a>
+                          <!-- Makeup -->
+
+                        <a class="nav-item nav-link" id="nav-makeup-tab" data-toggle="tab" href="#nav-makeup" role="tab" aria-controls="nav-makeup" aria-selected="false">Makeup</a>
+                          <!-- Day Spa -->
+
+                        <a class="nav-item nav-link" id="nav-makeup-tab" data-toggle="tab" href="#nav-daysap" role="tab" aria-controls="nav-makeup" aria-selected="false">Day Spa</a>
+                          <!-- Massage -->
+
+                        <a class="nav-item nav-link" id="nav-massage-tab" data-toggle="tab" href="#nav-massage" role="tab" aria-controls="nav-massage" aria-selected="false">Massage</a>
+                          <!-- Hair Removal -->
+
+                        <a class="nav-item nav-link" id="nav-hair-removal-tab" data-toggle="tab" href="#nav-hair-removal" role="tab" aria-controls="nav-hair-removal" aria-selected="false">Hair Removal</a>
+                          <!-- Health -->
+
+                        <a class="nav-item nav-link" id="nav-health-tab" data-toggle="tab" href="#nav-health" role="tab" aria-controls="nav-health" aria-selected="false">Health</a>
+                          <!-- Eyebrow -->
+
+                        <a class="nav-item nav-link" id="nav-eyebrow-tab" data-toggle="tab" href="#nav-eyebrow" role="tab" aria-controls="nav-eyebrow" aria-selected="false">Eyebrow</a>
+                         
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                     <!-- Hair Style content -->
+                    <div class="tab-pane fade show active" id="nav-hair" role="tabpanel" aria-labelledby="nav-hair-tab">
+                        
+                        
+                    </div>
+
+                    <!-- Nail Salon content -->
+                    <div class="tab-pane fade" id="nav-nail" role="tabpanel" aria-labelledby="nav-nail-tab">
+                       
+                    </div>
+                    <!-- Barbershop content -->
+                    <div class="tab-pane fade" id="nav-barbershop" role="tabpanel" aria-labelledby="nav-barbershop-tab">
+                       
+                    </div>
+                         <!-- Beauty Salon -->
+                    <div class="tab-pane fade" id="nav-beauty" role="tabpanel" aria-labelledby="nav-beauty-tab">
+                        
+                    </div>
+                         <!--Makeup -->
+                    <div class="tab-pane fade" id="nav-makeup" role="tabpanel" aria-labelledby="nav-makeup-tab">
+                         <!--Day sap -->
+                    <div class="tab-pane fade" id="nav-daysap" role="tabpanel" aria-labelledby="nav-daysap-tab">
+                         <!--Massage -->
+                    <div class="tab-pane fade" id="nav-massage" role="tabpanel" aria-labelledby="nav-massage-tab">
+                         <!--Hair Removal -->
+                    <div class="tab-pane fade" id="nav-hair-removal" role="tabpanel" aria-labelledby="nav-hair-removal-tab">
+                         <!--Health -->
+                    <div class="tab-pane fade" id="nav-health" role="tabpanel" aria-labelledby="nav-health-tab">
+                         <!--Eyebrow -->
+                    <div class="tab-pane fade" id="nav-eyebrow" role="tabpanel" aria-labelledby="nav-eyebrow-tab">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+CSS style:=============================
+
+.project-tab {
+    padding: 10%;
+    margin-top: -8%;
+}
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
